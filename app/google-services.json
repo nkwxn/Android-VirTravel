@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835633750837",
+    "project_id": "virtravel-6fda9",
+    "storage_bucket": "virtravel-6fda9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835633750837:android:af6a18e46d1dafbec7a27c",
+        "android_client_info": {
+          "package_name": "com.nicholas.virtravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835633750837-5v8kni4fbr75o7fb56rh6tfp7uvgib6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGizAdGB8_TU8Ruv_SPBuxdb6_Ycg7HKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835633750837-5v8kni4fbr75o7fb56rh6tfp7uvgib6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

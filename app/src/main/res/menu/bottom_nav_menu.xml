@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/book_tour"
+        android:enabled="true"
+        android:icon="@drawable/ic_buy_tours"
+        android:title="Book" />
+    <item
+        android:id="@+id/start_tour"
+        android:enabled="true"
+        android:icon="@drawable/ic_your_tour"
+        android:title="Your Booked Tours" />
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile" />
+</menu>
