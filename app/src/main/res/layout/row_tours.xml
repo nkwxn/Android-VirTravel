@@ -38,13 +38,15 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:gravity="center">
+
                     <TextView
                         android:id="@+id/tvPrice"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:textSize="24sp"
-                        android:text="$150"/>
+                        android:text="$150"
+                        android:textSize="24sp" />
+
                     <Button
                         android:id="@+id/btnExpandCollapse"
                         android:layout_width="0dp"

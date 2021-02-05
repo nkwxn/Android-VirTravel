@@ -1,14 +1,9 @@
 package com.nicholas.virtravel;
 
-import org.json.JSONObject;
-
 public class TourPackage {
     private String title, desc, imgLink;
     private double price, lat, lon;
-
-    public TourPackage(JSONObject tourPackage) {
-
-    }
+    private boolean expanded;
 
     public TourPackage(String title, String desc, String imgLink, double price, double lat, double lon) {
         this.title = title;
@@ -17,6 +12,7 @@ public class TourPackage {
         this.price = price;
         this.lat = lat;
         this.lon = lon;
+        this.expanded = false;
     }
 
     public String getTitle() {
@@ -41,5 +37,13 @@ public class TourPackage {
 
     public double getLon() {
         return lon;
+    }
+
+    public boolean isExpanded() {
+        return expanded;
+    }
+
+    public void setExpanded(boolean expanded) {
+        this.expanded = expanded;
     }
 }

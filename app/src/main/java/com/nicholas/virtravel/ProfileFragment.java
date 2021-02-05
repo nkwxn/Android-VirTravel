@@ -97,6 +97,9 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
         cvTopUpBalance = v.findViewById(R.id.btnTopUp);
         cvSignOut = v.findViewById(R.id.btnLogOut);
 
+        cvEditProfile.setVisibility(View.GONE);
+        cvTopUpBalance.setVisibility(View.GONE);
+
         cvEditProfile.setOnClickListener(this);
         cvTopUpBalance.setOnClickListener(this);
         cvSignOut.setOnClickListener(this);
