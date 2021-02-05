@@ -15,4 +15,5 @@
     <string name="female">Female</string>
     <string name="sample_desc">The Louvre is not only one of the best art museums in the world, it’s also one of the biggest. There are 35,000 objects on display out of a collection of 380,000. This walking tour features part 1 of the Louvre Museum in Denon Wing. First, a walk around before accessing the museum floor. Further on, a great display of the Greek and Roman antiquities and its famous statues; Aphrodite, Vénus de Milo, Winged Victory of Samothrace and The Virgin and Child with four Angels . Followed by the decorative arts (paintings) area from Spain, France, Italy including the Mona Lisa.</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDvrCtBDM4wL5GKdKR-UwoL9YdYYZ4yioM</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

@@ -10,22 +10,16 @@ public class LoadingDialog {
     private Activity activity;
     private AlertDialog dialog;
     private TextView textView;
-    private String loadingText;
 
     LoadingDialog(Activity myA) {
         activity = myA;
-    }
-
-    LoadingDialog(Activity myA, String loadingText) {
-        activity = myA;
-        this.loadingText = loadingText;
     }
 
     void startLoadingDialog(String loadingText) {
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
 
         LayoutInflater inflater = activity.getLayoutInflater();
-        View v = inflater.inflate(R.layout.loading_popup, null);
+        View v = inflater.inflate(R.layout.dialog_loading, null);
         textView = v.findViewById(R.id.tvLoading);
         textView.setText(loadingText);
         builder.setView(v);

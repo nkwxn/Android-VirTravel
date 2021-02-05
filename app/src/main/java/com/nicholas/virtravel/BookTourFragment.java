@@ -28,7 +28,6 @@ import java.util.List;
 public class BookTourFragment extends Fragment {
     RecyclerView recyclerView;
     List<TourPackage> tourPackages;
-    FirebaseAuth mAuth;
     FirebaseFirestore db;
 
         @Nullable
@@ -46,7 +45,7 @@ public class BookTourFragment extends Fragment {
     private void initDataRV(Bundle savedInstanceState) {
         tourPackages = new ArrayList<>();
 
-        // Disini diganti dengan Fetch data from Firebase
+        // Fetch data from Firebase
         CollectionReference colRef = db.collection("virtualTourPackages");
         colRef.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
             @Override
@@ -62,7 +61,8 @@ public class BookTourFragment extends Fragment {
                                 docs.getString("desc"),
                                 docs.getString("imageLink"),
                                 docs.getDouble("price"),
-                                lat, lon
+                                docs.getString("videoLink"),
+                                lat, lon, docs.getId() + ""
                         ));
                     }
 

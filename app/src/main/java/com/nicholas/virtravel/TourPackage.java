@@ -1,17 +1,19 @@
 package com.nicholas.virtravel;
 
 public class TourPackage {
-    private String title, desc, imgLink;
+    private String title, desc, imgLink, tourID, videoLink;
     private double price, lat, lon;
     private boolean expanded;
 
-    public TourPackage(String title, String desc, String imgLink, double price, double lat, double lon) {
+    public TourPackage(String title, String desc, String imgLink, double price, String videoLink, double lat, double lon, String tourID) {
         this.title = title;
         this.desc = desc;
         this.imgLink = imgLink;
         this.price = price;
         this.lat = lat;
         this.lon = lon;
+        this.videoLink = videoLink;
+        this.tourID = tourID;
         this.expanded = false;
     }
 
@@ -25,6 +27,14 @@ public class TourPackage {
 
     public String getImgLink() {
         return imgLink;
+    }
+
+    public String getVideoLink() {
+        return videoLink;
+    }
+
+    public String getTourID() {
+        return tourID;
     }
 
     public double getPrice() {
