@@ -232,7 +232,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
                                         userProfile.put("firstName", firstName);
                                         userProfile.put("lastName", lastName);
                                         userProfile.put("gender", gender);
-                                        userProfile.put("money", 0.0);
+                                        userProfile.put("money", 10000.0);
                                         userProfile.put("registerDate", new Date().getTime()); // Time since 1 jan 1970 00.00 utc
 
                                         db.collection("userProfiles")
